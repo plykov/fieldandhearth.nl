@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field &amp; Hearth — Steengemalen, houtgestookt zuurdesem</title>
+<meta name="description" content="Oergranen, vers op steen gemalen en natuurlijk gerezen. Houtgestookt zuurdesembrood van Field &amp; Hearth — zoals onze voorouders het bakten.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;background:#0c0a09;}
+  *{box-sizing:border-box;}
+  ::selection{background:#b5642a;color:#fff;}
+  @keyframes cueBob{0%,100%{transform:translateY(0);opacity:.25}50%{transform:translateY(18px);opacity:1}}
+  @keyframes modalIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+  #order input::placeholder,#order textarea::placeholder{color:rgba(255,244,230,.4);}
+  #order input:focus,#order textarea:focus,#order select:focus{outline:none;border-color:#f0c089;}
+  #order a{color:#f0c089;}
+</style>
+</head>
+<body>
+
+<div id="brand" style="position:fixed;top:26px;left:6vw;z-index:60;font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:600;letter-spacing:.02em;color:#fff;opacity:0;transition:opacity .6s;pointer-events:none;text-shadow:0 1px 18px rgba(0,0,0,.55);">Field &amp; Hearth</div>
+
+<!-- ============ PINNED SCROLLYTELLING FILM ============ -->
+<div id="hero" style="position:relative;width:100%;height:650vh;background:#0c0a09;">
+  <div style="position:sticky;top:0;height:100vh;width:100%;overflow:hidden;background:#0c0a09;">
+
+    <canvas id="film" width="1280" height="720" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:#0c0a09;"></canvas>
+    <div style="position:absolute;inset:0;pointer-events:none;z-index:6;opacity:.06;mix-blend-mode:overlay;background-image:url('data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter%20id=%22n%22%3E%3CfeTurbulence%20type=%22fractalNoise%22%20baseFrequency=%220.85%22%20numOctaves=%222%22/%3E%3C/filter%3E%3Crect%20width=%22100%25%22%20height=%22100%25%22%20filter=%22url(%23n)%22/%3E%3C/svg%3E');"></div>
+    <div style="position:absolute;inset:0;pointer-events:none;z-index:5;background:radial-gradient(130% 130% at 50% 42%, transparent 46%, rgba(10,6,2,.72) 100%);"></div>
+
+    <!-- BLOCK 1 — TITLE -->
+    <div class="block" data-in="0.02" data-out="0.19" style="position:absolute;inset:0;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6vw;opacity:0;will-change:opacity,transform;">
+      <div style="font-family:'Jost',sans-serif;font-size:13px;letter-spacing:.5em;text-transform:uppercase;color:rgba(255,232,200,.85);margin-bottom:18px;text-shadow:0 1px 14px rgba(0,0,0,.5);">Zoals onze voorouders het bakten</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:600;color:#fff;font-size:clamp(50px,9.5vw,138px);line-height:.92;text-shadow:0 2px 44px rgba(0,0,0,.55);">Field &amp; Hearth</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;color:rgba(255,238,214,.94);font-size:clamp(18px,2.4vw,30px);margin-top:20px;text-shadow:0 1px 16px rgba(0,0,0,.5);">Steengemalen · Houtgestookt · Natuurlijk gerezen</div>
+    </div>
+
+    <!-- BLOCK 2 — THE FIELD -->
+    <div class="block" data-in="0.23" data-out="0.40" style="position:absolute;inset:0;z-index:14;display:flex;align-items:flex-end;padding:0 6vw 13vh;opacity:0;will-change:opacity,transform;">
+      <div style="max-width:560px;">
+        <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:18px;text-shadow:0 1px 12px rgba(0,0,0,.6);">01 — Het veld</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(32px,4.6vw,62px);line-height:1.02;margin:0 0 20px;color:#fff;text-shadow:0 2px 30px rgba(0,0,0,.6);">Het begint met<br>oergranen.</h2>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(18px,1.5vw,23px);line-height:1.6;color:rgba(255,244,230,.94);margin:0;max-width:46ch;text-shadow:0 1px 18px rgba(0,0,0,.7);">Wij telen en zoeken oude graanrassen — de tarwe die onze voorouders kenden — traag gerijpt op open velden en geoogst aan het einde van de zomer. Meel met een smaak die het wachten waard is.</p>
+      </div>
+    </div>
+
+    <!-- BLOCK 3 — THE MILL -->
+    <div class="block" data-in="0.44" data-out="0.60" style="position:absolute;inset:0;z-index:14;display:flex;align-items:flex-end;justify-content:flex-end;text-align:right;padding:0 6vw 13vh;opacity:0;will-change:opacity,transform;">
+      <div style="max-width:560px;">
+        <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:18px;text-shadow:0 1px 12px rgba(0,0,0,.6);">02 — De molen</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(32px,4.6vw,62px);line-height:1.02;margin:0 0 20px;color:#fff;text-shadow:0 2px 30px rgba(0,0,0,.6);">Steengemalen<br>bij het eerste licht.</h2>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(18px,1.5vw,23px);line-height:1.6;color:rgba(255,244,230,.94);margin:0 0 0 auto;max-width:46ch;text-shadow:0 1px 18px rgba(0,0,0,.7);">Elke ochtend malen wij de volle korrel op steen — zemel, kiem en al — zoals het eeuwen geleden gebeurde. Zo draagt elk brood het volle karakter van de tarwe, nooit gestript of gebleekt.</p>
+      </div>
+    </div>
+
+    <!-- BLOCK 4 — THE HAND -->
+    <div class="block" data-in="0.63" data-out="0.79" style="position:absolute;inset:0;z-index:14;display:flex;align-items:flex-end;padding:0 6vw 13vh;opacity:0;will-change:opacity,transform;">
+      <div style="max-width:560px;">
+        <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:18px;text-shadow:0 1px 12px rgba(0,0,0,.6);">03 — De hand</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(32px,4.6vw,62px);line-height:1.02;margin:0 0 20px;color:#fff;text-shadow:0 2px 30px rgba(0,0,0,.6);">Met de hand gevormd,<br>door tijd gerezen.</h2>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(18px,1.5vw,23px);line-height:1.6;color:rgba(255,244,230,.94);margin:0;max-width:46ch;text-shadow:0 1px 18px rgba(0,0,0,.7);">Geen fabrieksgist — enkel een wilde desem die we al jaren in leven houden, een lange koude rijs, en een laatste insnede vóór het vuur. Zo deden onze voorouders het, en wij doen het niet anders.</p>
+      </div>
+    </div>
+
+    <!-- BLOCK 5 — THE HEARTH / VISIT -->
+    <div class="block" data-in="0.84" data-out="1.05" style="position:absolute;inset:0;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 6vw;opacity:0;will-change:opacity,transform;">
+      <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:16px;text-shadow:0 1px 12px rgba(0,0,0,.6);">04 — De haard</div>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(40px,6vw,86px);line-height:.98;margin:0 0 22px;color:#fff;text-shadow:0 2px 40px rgba(0,0,0,.6);">Houtgestookt,<br>elke dag vers.</h2>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:clamp(18px,1.6vw,24px);line-height:1.5;color:rgba(255,244,230,.95);text-shadow:0 1px 18px rgba(0,0,0,.7);margin-bottom:34px;">Korenmolenstraat 12 · Oude Markt · Tilburg<br>Woensdag – zondag · vanaf 8u tot de broden op zijn</div>
+      <button id="orderBtn" type="button" style="display:inline-block;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#1a120b;background:#f0e0c8;padding:16px 36px;border:none;border-radius:2px;text-decoration:none;cursor:pointer;">Bestel een brood</button>
+    </div>
+
+    <div id="cue" style="position:absolute;left:50%;bottom:5vh;transform:translateX(-50%);width:1px;height:48px;background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.55));opacity:.7;transition:opacity .6s;pointer-events:none;z-index:16;">
+      <div style="position:absolute;left:50%;top:0;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:rgba(255,255,255,.9);animation:cueBob 1.9s ease-in-out infinite;"></div>
+    </div>
+    <div style="position:absolute;left:0;right:0;bottom:0;height:2px;background:rgba(255,255,255,.1);pointer-events:none;z-index:17;">
+      <div id="bar" style="height:100%;background:rgba(255,255,255,.74);transform-origin:left;transform:scaleX(0);"></div>
+    </div>
+    <div id="loader" style="position:absolute;inset:0;z-index:30;display:flex;align-items:flex-end;justify-content:center;padding-bottom:9vh;background:linear-gradient(180deg,#1a120a,#0c0a09);pointer-events:none;transition:opacity .8s;">
+      <div style="width:120px;height:2px;background:rgba(255,255,255,.14);border-radius:2px;overflow:hidden;">
+        <div id="loadbar" style="height:100%;width:0%;background:rgba(255,236,206,.8);transition:width .25s;"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============ LEAD-CAPTURE / ORDER MODAL ============ -->
+<div id="order" role="dialog" aria-modal="true" aria-labelledby="orderTitle" style="position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(6,4,2,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);">
+  <div style="position:relative;width:100%;max-width:520px;max-height:92vh;overflow-y:auto;background:#15100b;border:1px solid rgba(240,192,137,.22);border-radius:6px;box-shadow:0 30px 90px rgba(0,0,0,.7);padding:38px 36px 32px;animation:modalIn .45s cubic-bezier(.2,.7,.2,1) both;">
+
+    <button id="orderClose" type="button" aria-label="Sluiten" style="position:absolute;top:16px;right:16px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:transparent;border:none;color:rgba(255,244,230,.6);font-size:22px;line-height:1;cursor:pointer;">&times;</button>
+
+    <!-- FORM STATE -->
+    <div id="orderForm">
+      <div style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:12px;">Reserveer je brood</div>
+      <h3 id="orderTitle" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.05;margin:0 0 8px;color:#fff;">Laat je gegevens achter</h3>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.5;color:rgba(255,244,230,.82);margin:0 0 26px;">We nemen contact op zodra je versgebakken brood klaarligt om af te halen.</p>
+
+      <form id="leadForm" novalidate>
+        <input type="hidden" name="_subject" value="Nieuwe broodbestelling via fieldandhearth.nl">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
+        <label style="display:block;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,244,230,.7);margin-bottom:7px;">Naam *</label>
+        <input name="naam" type="text" required autocomplete="name" placeholder="Voor- en achternaam" style="width:100%;margin-bottom:18px;padding:13px 15px;font-family:'Cormorant Garamond',serif;font-size:18px;color:#fff;background:rgba(255,255,255,.04);border:1px solid rgba(240,192,137,.25);border-radius:3px;">
+
+        <label style="display:block;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,244,230,.7);margin-bottom:7px;">E-mailadres *</label>
+        <input name="email" type="email" required autocomplete="email" placeholder="naam@voorbeeld.nl" style="width:100%;margin-bottom:18px;padding:13px 15px;font-family:'Cormorant Garamond',serif;font-size:18px;color:#fff;background:rgba(255,255,255,.04);border:1px solid rgba(240,192,137,.25);border-radius:3px;">
+
+        <div style="display:flex;gap:14px;">
+          <div style="flex:1;">
+            <label style="display:block;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,244,230,.7);margin-bottom:7px;">Telefoon</label>
+            <input name="telefoon" type="tel" autocomplete="tel" placeholder="Optioneel" style="width:100%;margin-bottom:18px;padding:13px 15px;font-family:'Cormorant Garamond',serif;font-size:18px;color:#fff;background:rgba(255,255,255,.04);border:1px solid rgba(240,192,137,.25);border-radius:3px;">
+          </div>
+          <div style="flex:1;">
+            <label style="display:block;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,244,230,.7);margin-bottom:7px;">Afhaaldag</label>
+            <select name="afhaaldag" style="width:100%;margin-bottom:18px;padding:13px 15px;font-family:'Cormorant Garamond',serif;font-size:18px;color:#fff;background:#15100b;border:1px solid rgba(240,192,137,.25);border-radius:3px;">
+              <option value="">Geen voorkeur</option>
+              <option>Woensdag</option>
+              <option>Donderdag</option>
+              <option>Vrijdag</option>
+              <option>Zaterdag</option>
+              <option>Zondag</option>
+            </select>
+          </div>
+        </div>
+
+        <label style="display:flex;gap:12px;align-items:flex-start;margin:4px 0 22px;cursor:pointer;">
+          <input id="consent" name="consent" type="checkbox" required style="margin-top:4px;width:18px;height:18px;flex:none;accent-color:#b5642a;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:15.5px;line-height:1.5;color:rgba(255,244,230,.8);">Ik geef toestemming dat Field &amp; Hearth mijn gegevens gebruikt om contact met mij op te nemen over mijn bestelling, conform de <a href="privacy.html" id="privacyLink" target="_blank" rel="noopener">privacyverklaring</a>. *</span>
+        </label>
+
+        <div id="formError" style="display:none;font-family:'Cormorant Garamond',serif;font-size:16px;color:#ffb38a;margin-bottom:14px;"></div>
+
+        <button type="submit" style="width:100%;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#1a120b;background:#f0e0c8;padding:16px;border:none;border-radius:2px;cursor:pointer;">Verstuur aanvraag</button>
+
+        <p style="font-family:'Jost',sans-serif;font-size:11px;line-height:1.7;color:rgba(255,244,230,.45);margin:18px 0 0;">
+          Verantwoordelijke: Field &amp; Hearth, Korenmolenstraat 12, 5038 Tilburg. We verwerken je gegevens uitsluitend op basis van jouw toestemming om je bestelling af te handelen en bewaren ze niet langer dan nodig. Je kunt je toestemming op elk moment intrekken en je hebt recht op inzage, correctie of verwijdering via <a href="mailto:privacy@fieldandhearth.nl">privacy@fieldandhearth.nl</a>. We delen je gegevens nooit met derden voor marketing.
+        </p>
+      </form>
+    </div>
+
+    <!-- SUCCESS STATE -->
+    <div id="orderDone" style="display:none;text-align:center;padding:18px 0 10px;">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:50px;line-height:1;color:#f0c089;margin-bottom:18px;">&#10003;</div>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:32px;line-height:1.05;margin:0 0 12px;color:#fff;">Dank je wel.</h3>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.55;color:rgba(255,244,230,.82);margin:0 auto 28px;max-width:34ch;">Je aanvraag is ontvangen. We nemen binnenkort contact met je op over het afhalen van je brood.</p>
+      <button id="doneClose" type="button" style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#1a120b;background:#f0e0c8;padding:14px 34px;border:none;border-radius:2px;cursor:pointer;">Sluiten</button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var N = 64, fade = 0.05;
+  var canvas = document.getElementById('film'), ctx = canvas.getContext('2d');
+  var hero = document.getElementById('hero'), bar = document.getElementById('bar'),
+      cue = document.getElementById('cue'), brand = document.getElementById('brand'),
+      loader = document.getElementById('loader'), loadbar = document.getElementById('loadbar');
+  var blocks = [].slice.call(document.querySelectorAll('.block'));
+  var imgs = new Array(N), loaded = 0, cur = 0, target = 0;
+  function clamp(v, a, b) { return v < a ? a : v > b ? b : v; }
+  function url(i) { return 'frames/f' + (i < 10 ? '0' + i : i) + '.jpg'; }
+  for (var i = 0; i < N; i++) {
+    (function (i) {
+      var im = new Image(); im.decoding = 'async';
+      im.onload = function () {
+        loaded++;
+        if (i === 0) draw();
+        loadbar.style.width = Math.round(loaded / N * 100) + '%';
+        if (loaded >= N) { loader.style.opacity = '0'; setTimeout(function () { loader.style.display = 'none'; }, 850); }
+      };
+      im.src = url(i); imgs[i] = im;
+    })(i);
+  }
+  function ok(im) { return im && im.complete && im.naturalWidth > 0; }
+  function draw() {
+    var f = clamp(cur, 0, N - 1), a = Math.floor(f), b = Math.min(N - 1, a + 1), frac = f - a;
+    var ia = imgs[a], ib = imgs[b];
+    if (ok(ia)) {
+      ctx.globalAlpha = 1; ctx.drawImage(ia, 0, 0, canvas.width, canvas.height);
+      if (frac > 0.001 && ok(ib)) { ctx.globalAlpha = frac; ctx.drawImage(ib, 0, 0, canvas.width, canvas.height); ctx.globalAlpha = 1; }
+    }
+  }
+  function compute() {
+    var heroH = hero.scrollHeight;
+    var max = Math.max(1, heroH - window.innerHeight);
+    var y = window.scrollY || window.pageYOffset || 0;
+    var g = clamp(y / max, 0, 1);
+    target = g * (N - 1);
+    bar.style.transform = 'scaleX(' + g + ')';
+    cue.style.opacity = y > 12 ? 0 : 0.7;
+    brand.style.opacity = g > 0.2 ? 1 : 0;
+    for (var j = 0; j < blocks.length; j++) {
+      var el = blocks[j], s = parseFloat(el.getAttribute('data-in')), e = parseFloat(el.getAttribute('data-out'));
+      var op = 0;
+      if (g >= s && g <= e) op = clamp(Math.min((g - s) / fade, (e - g) / fade, 1), 0, 1);
+      el.style.opacity = op;
+      el.style.transform = 'translateY(' + ((1 - op) * 22) + 'px)';
+      el.style.pointerEvents = op > 0.6 ? 'auto' : 'none';
+    }
+    cur += (target - cur) * 0.5;
+    if (Math.abs(target - cur) < 0.0008) cur = target;
+    draw();
+  }
+  function loop() {
+    requestAnimationFrame(loop);
+    cur += (target - cur) * 0.16;
+    if (Math.abs(target - cur) < 0.0008) cur = target;
+    draw();
+  }
+  window.addEventListener('scroll', compute, { passive: true });
+  window.addEventListener('resize', compute);
+  compute();
+  requestAnimationFrame(loop);
+
+  /* ===== Lead-capture modal ===== */
+  // Submissions are sent to Formspree (endpoint set below). In Formspree,
+  // add fieldandhearth.nl as an allowed domain and confirm the notification
+  // email so the first submission goes through.
+  var FORM_ENDPOINT = 'https://formspree.io/f/mbdvyaey';
+
+  var modal = document.getElementById('order'),
+      openBtn = document.getElementById('orderBtn'),
+      closeBtn = document.getElementById('orderClose'),
+      doneClose = document.getElementById('doneClose'),
+      leadForm = document.getElementById('leadForm'),
+      formWrap = document.getElementById('orderForm'),
+      doneWrap = document.getElementById('orderDone'),
+      formError = document.getElementById('formError'),
+      lastFocus = null;
+
+  function openModal() {
+    lastFocus = document.activeElement;
+    formWrap.style.display = ''; doneWrap.style.display = 'none';
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    var first = leadForm.querySelector('input');
+    if (first) setTimeout(function () { first.focus(); }, 60);
+  }
+  function closeModal() {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  openBtn.addEventListener('click', openModal);
+  closeBtn.addEventListener('click', closeModal);
+  doneClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal.style.display === 'flex') closeModal();
+  });
+
+  leadForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    formError.style.display = 'none';
+    var f = leadForm;
+    if (!f.naam.value.trim()) return showErr('Vul je naam in.');
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(f.email.value)) return showErr('Vul een geldig e-mailadres in.');
+    if (!f.consent.checked) return showErr('Geef je toestemming om verder te gaan.');
+
+    var submit = f.querySelector('button[type="submit"]');
+    submit.disabled = true; submit.textContent = 'Versturen…';
+
+    function done() { formWrap.style.display = 'none'; doneWrap.style.display = 'block'; leadForm.reset(); submit.disabled = false; submit.textContent = 'Verstuur aanvraag'; }
+
+    if (FORM_ENDPOINT) {
+      fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(f)
+      }).then(function (r) {
+        if (r.ok) { done(); }
+        else { showErr('Er ging iets mis. Probeer het later opnieuw.'); submit.disabled = false; submit.textContent = 'Verstuur aanvraag'; }
+      }).catch(function () {
+        showErr('Geen verbinding. Probeer het later opnieuw.'); submit.disabled = false; submit.textContent = 'Verstuur aanvraag';
+      });
+    } else {
+      setTimeout(done, 500); // demo mode
+    }
+  });
+  function showErr(msg) { formError.textContent = msg; formError.style.display = 'block'; }
+})();
+</script>
+</body>
+</html>
