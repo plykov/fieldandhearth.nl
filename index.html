@@ -12,7 +12,9 @@
   html,body{margin:0;padding:0;background:#0c0a09;}
   *{box-sizing:border-box;}
   ::selection{background:#b5642a;color:#fff;}
-  @keyframes cueBob{0%,100%{transform:translateY(0);opacity:.25}50%{transform:translateY(18px);opacity:1}}
+  @keyframes cueBob{0%,100%{transform:translateY(0);opacity:.35}50%{transform:translateY(7px);opacity:1}}
+  #cue-label{font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:rgba(255,255,255,.75);text-shadow:0 1px 10px rgba(0,0,0,.6);}
+  @media(max-width:640px){#cue-label{font-size:13px;letter-spacing:.28em;}#cue-arrow{width:28px!important;height:28px!important;}}
   @keyframes modalIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
   #order input::placeholder,#order textarea::placeholder{color:rgba(255,244,230,.4);}
   #order input:focus,#order textarea:focus,#order select:focus{outline:none;border-color:#f0c089;}
@@ -73,8 +75,11 @@
       <button id="orderBtn" type="button" style="display:inline-block;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#1a120b;background:#f0e0c8;padding:16px 36px;border:none;border-radius:2px;text-decoration:none;cursor:pointer;">Bestel een brood</button>
     </div>
 
-    <div id="cue" style="position:absolute;left:50%;bottom:5vh;transform:translateX(-50%);width:1px;height:48px;background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.55));opacity:.7;transition:opacity .6s;pointer-events:none;z-index:16;">
-      <div style="position:absolute;left:50%;top:0;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:rgba(255,255,255,.9);animation:cueBob 1.9s ease-in-out infinite;"></div>
+    <div id="cue" style="position:absolute;left:50%;bottom:5vh;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;opacity:.7;transition:opacity .6s;pointer-events:none;z-index:16;">
+      <span id="cue-label">Scroll</span>
+      <svg id="cue-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="animation:cueBob 1.9s ease-in-out infinite;filter:drop-shadow(0 1px 6px rgba(0,0,0,.5));" aria-hidden="true">
+        <path d="M5 8.5l6 6 6-6" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     </div>
     <div style="position:absolute;left:0;right:0;bottom:0;height:2px;background:rgba(255,255,255,.1);pointer-events:none;z-index:17;">
       <div id="bar" style="height:100%;background:rgba(255,255,255,.74);transform-origin:left;transform:scaleX(0);"></div>
