@@ -19,9 +19,17 @@
   #order input::placeholder,#order textarea::placeholder{color:rgba(255,244,230,.4);}
   #order input:focus,#order textarea:focus,#order select:focus{outline:none;border-color:#f0c089;}
   #order a{color:#f0c089;}
+  #mockup-banner{position:fixed;top:0;left:0;right:0;z-index:999;background:rgba(240,192,89,.13);border-bottom:1px solid rgba(240,192,89,.3);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 20px;text-align:center;}
+  #mockup-banner span{font-family:'Jost',sans-serif;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,232,180,.9);text-shadow:0 1px 6px rgba(0,0,0,.5);}
+  #mockup-banner svg{flex:none;opacity:.75;}
 </style>
 </head>
 <body>
+
+<div id="mockup-banner" role="banner" aria-label="Prototype melding">
+  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><circle cx="7.5" cy="7.5" r="6.5" stroke="rgba(255,210,100,.8)" stroke-width="1.2"/><path d="M7.5 5v3.5M7.5 10v.5" stroke="rgba(255,210,100,.8)" stroke-width="1.2" stroke-linecap="round"/></svg>
+  <span>Concept prototype &mdash; Dit is een mockup om een bedrijfsidee te testen. Er is geen echte winkel en bestellingen worden niet verwerkt.</span>
+</div>
 
 <div id="brand" style="position:fixed;top:26px;left:6vw;z-index:60;font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:600;letter-spacing:.02em;color:#fff;opacity:0;transition:opacity .6s;pointer-events:none;text-shadow:0 1px 18px rgba(0,0,0,.55);">Field &amp; Hearth</div>
 
@@ -72,7 +80,7 @@
       <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:#f0c089;margin-bottom:16px;text-shadow:0 1px 12px rgba(0,0,0,.6);">04 — De haard</div>
       <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(40px,6vw,86px);line-height:.98;margin:0 0 22px;color:#fff;text-shadow:0 2px 40px rgba(0,0,0,.6);">Houtgestookt,<br>elke dag vers.</h2>
       <div style="font-family:'Cormorant Garamond',serif;font-size:clamp(18px,1.6vw,24px);line-height:1.5;color:rgba(255,244,230,.95);text-shadow:0 1px 18px rgba(0,0,0,.7);margin-bottom:34px;">Korenmolenstraat 12 · Oude Markt · Tilburg<br>Woensdag – zondag · vanaf 8u tot de broden op zijn</div>
-      <button id="orderBtn" type="button" style="display:inline-block;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#1a120b;background:#f0e0c8;padding:16px 36px;border:none;border-radius:2px;text-decoration:none;cursor:pointer;">Bestel een brood</button>
+      <button id="orderBtn" type="button" disabled aria-disabled="true" style="display:inline-block;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:rgba(26,18,11,.4);background:rgba(240,224,200,.35);padding:16px 36px;border:none;border-radius:2px;cursor:not-allowed;">Bestel een brood — concept</button>
     </div>
 
     <div id="cue" style="position:absolute;left:50%;bottom:5vh;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;opacity:.7;transition:opacity .6s;pointer-events:none;z-index:16;">
@@ -251,7 +259,7 @@
     document.body.style.overflow = '';
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
-  openBtn.addEventListener('click', openModal);
+  /* order form disabled — concept prototype */
   closeBtn.addEventListener('click', closeModal);
   doneClose.addEventListener('click', closeModal);
   modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
