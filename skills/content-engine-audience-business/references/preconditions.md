@@ -1,0 +1,16 @@
+# Details and preconditions (paraphrased)
+
+## Lenny Rachitsky
+- Background: seven years at a major marketplace company, led work lifting instant booking from 5% to 75%; left 2019 without a plan to write a newsletter. A viral marketplace post seeded his reputation; moved to a newsletter platform in Aug 2019; paid launched April 2020 at ~13K free subscribers; two deep multi-month posts drove about half of them (tentpoles beat steady volume).
+- Growth: threads on X, word of mouth; paid ads, SEO and business development did not move the needle; platform Recommendations (April 2022) became the biggest lever (about three-quarters of new free subscribers at one point, from 1,000+ recommending publications).
+- Podcast: launched June 2022 after an invitation to another show; pre-recorded ~10 episodes; two episodes a week; 100K-200K downloads each; sponsors lined up before launch from newsletter ad demand he'd turned down.
+- Revenue stack: newsletter (paid count undisclosed; outside estimate 30K-40K paid; ~$6M gross estimate), subscriber bundle of 20+ partner tools (a rotating free year, pitched at $10K+ value; partners are often portfolio or network companies), podcast sponsorships, courses (Maven, AI-native course relaunched 2026), job board, angel portfolio (140+ investments).
+- Content loop: one recording to episode, video, newsletter, clips, training data for a bot; free thread that routes to a paid post; guests as content + distributor + relationship; annual in-person summit (~1,200 people); added shows hosted by others.
+- AI-programmable archive (early 2026): 369 posts and 317 transcripts as AI-ready files plus an open MCP server; paid subscribers get the full set; the community built 50+ tools; a build challenge.
+- Copyable: make once publish everywhere; free work sells paid; guests as three assets; products on an earned audience; programmable content; years of cadence.
+- Not copyable: credible story, network at each stage (introductions, platform advice, early guest platforms), starting early when the platform and audience had no home, savings to work unpaid the first year. Even so the network only amplified work that was good. His own risk: years out of hands-on product work, so authority must be renewed.
+
+## SaaStr
+- Lost nearly all sponsors 2023-25 as SaaS budgets collapsed; AI budgets sit elsewhere. Rebuilt: 63 of 78 top sponsors in 2026 were new; 2026 event reported at 132% of prior year; revenue Q1 2026 140% of Q1 2025 (company).
+- Plays: education-led growth (publish "The Agents" series with vendor names, costs and failures); AI agent sales team (separate skill); become your buyers' reference customer (sponsors include vendors whose agents run inside the business; Lemkin has not said deployments caused sponsorships); SEO and AEO (20+ posts a week on research-stage questions; impressions 50K to 245K a day in a year); AI-programmable corpus (founder clone, 20M+ words, 500K+ conversations); founder-led social (2,250+ Quora answers, 1M followers by 2020).
+- Limits: AI budgets are flush while funding is; sponsors are also the vendors reviewed, so trust is the asset; 13 years of content and a founder's name opened doors, so a new entrant should start with a blog and answered questions.

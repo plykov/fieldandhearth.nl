@@ -1,0 +1,10 @@
+# Instinct notes (paraphrased)
+Product: a personal assistant reached by text or call (no app), connecting email and calendar, acting rather than suggesting (bookings, bills, cancellations); credentials held in a vault via a password manager; free, invite-only.
+Timeline (author's version): founded H2 2025 with early investors; invite-only beta Feb 2026; Series A $75M at $500M+ (Aug 2026); public introduction Aug 26 with founder thread ~1M views and a Series B of $250M at $2.5B; 100K+ users and compute limits by Sep 15, with talks for $1B at ~$10B. Claims such as "$50M to $2.5B in four months before launch" were corrected by the author.
+Plays and caveats:
+- **Create scarcity**: gated by waitlist plus invites; status through vouching; comparable to Superhuman's waitlist and Robinhood. Don't copy if you need scale or the product isn't good enough.
+- **Seed the authorities**: invites to high-reach investors and founders (one handed out 100+ invites in minutes). Don't copy if you can't reach that crowd or the product can't impress.
+- **Orchestrate the launch**: one slogan repeated across outlets; identical enumerated outcome lists. The author found no evidence of coordination, only consistency; posters were mostly investors, some with a stake (the seed lead called it amazing). Aligned incentives plus scarce invites produce a testimonial wall; disclose.
+- Supporting: founder-led social; riding a category wave; text-and-connect onboarding.
+Risks: compute capacity, brittle browser automation, login walls, an email sent without confirmation; terms: first version granted a perpetual irrevocable licence over user materials including model training, rewritten on the day the round closed; remaining concerns include agent authority to bind users, data retention after disconnect, a $100 liability cap, arbitration with class waiver. Competition from free assistants by large platforms; no business model disclosed.
+Reading hype critically: ask who benefits when you believe it, what is verified, what is only claimed.
