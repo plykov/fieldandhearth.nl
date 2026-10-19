@@ -1,0 +1,951 @@
+{
+ "vocab": {
+  "demo_obvious_in_seconds": "Value is obvious to a non-expert within seconds of seeing the output",
+  "value_in_one_day": "One person can buy and get value alone within about a day, no approval",
+  "shareable_output": "What users create is proud-to-share or screenshot-worthy",
+  "founder_public_voice": "A founder willing to publish and argue a point of view in public",
+  "multi_year_content_capacity": "Capacity to publish consistently for years, not months",
+  "large_distinctive_archive": "A large, distinctive archive of published expertise",
+  "agent_operable": "Software or an AI agent can find, set up and use the product with no human",
+  "open_standard_or_oss": "Built on an open standard or open source people already trust",
+  "hosted_much_easier": "Hosted version is clearly easier than self-hosting",
+  "free_tier_fundable": "Can fund a generous free tier until some users grow into payers",
+  "usage_scales_with_success": "Customer usage and spend grow as they succeed",
+  "enterprise_layer_ready": "Enterprise controls, security answers and pricing exist",
+  "security_credible": "Credible answers to security and compliance reviews (certifications, single-tenant, audit)",
+  "high_cost_of_error_buyers": "Buyers face career-ending or costly mistakes",
+  "prestige_hierarchy_market": "A recognised top tier sets the standard others follow",
+  "insiders_from_buyer_world": "Founders or staff who come from the buyer's profession",
+  "peer_proof_buying": "Buyers adopt on peer proof and reputation",
+  "professional_buyer_with_budget": "Target buyer has urgency and budget, not mass low-intent consumers",
+  "existing_users_inside_target_accounts": "People inside target companies already use or ask for you",
+  "enterprise_cloud_spend_commitments": "Target buyers hold committed cloud spend that marketplace purchases can count against",
+  "proven_sales_playbook": "A human sales playbook already works with a rep worth copying",
+  "enough_lead_volume": "Enough lead volume for agents to add coverage",
+  "invest_in_agent_ops": "Willing to invest training time and money in agent operations",
+  "real_demand_behind_gate": "Real visible demand exists for what is behind a waitlist or invite gate",
+  "product_survives_scrutiny": "Product is polished enough to survive scrutiny from influential early users",
+  "reach_to_influencers": "Access to high-reach operators, investors or creators",
+  "neutral_position": "Can credibly stay neutral as a host or scoreboard",
+  "emerging_field_no_default": "Emerging field without an entrenched default hub",
+  "patient_capital": "Patient capital to delay monetisation",
+  "real_neutral_signal": "Sits on real usage signal the market trusts",
+  "shippable_cadence": "Enough real shipped work to fill recurring launch events",
+  "founder_credibility_in_domain": "Real operating credibility in the domain",
+  "audience_holds_capital_or_rules": "Audience holds capital or writes rules (for narrative plays)",
+  "needs_technical_person": "Product needs a technical person to get value",
+  "needs_human_configuration": "A person must configure it for each customer",
+  "long_explanation_needed": "Value needs a long explanation or appears weeks later",
+  "no_cost_visibility": "Customers cannot see what a request costs before making it",
+  "heavy_users_sink_margin": "A heavy user on a cheap plan would sink margins",
+  "founder_only_announces": "Founder would only post announcements",
+  "flat_market": "Buyers take no cue from a recognised top tier",
+  "buyers_tolerate_errors": "Buyers forgive mistakes and iterate",
+  "self_serve_trial_sells": "Product sells itself in a self-serve trial",
+  "no_one_asking_yet": "Nobody inside target companies is asking for you yet",
+  "thin_archive": "Archive is thin or generic",
+  "would_read_as_paid_placement": "Audience would read it as paid placement",
+  "cannot_show_real_results": "Cannot publish real results including failures",
+  "close_few_large_deals": "Closes few very large, high-trust deals",
+  "never_had_good_rep": "Never had a rep who could sell the product",
+  "output_not_shareable": "Output is not worth sharing",
+  "mass_consumer_no_wtp": "Only honest positioning is mass consumer with no willingness to pay",
+  "product_not_good_enough": "Product is not yet good enough to back scarcity or seeding",
+  "must_scale_fast": "Needs scale quickly",
+  "gameable_signal": "Signal is gameable or thin",
+  "cannot_fund_wait": "Cannot fund the wait for revenue",
+  "entrenched_hub_exists": "An entrenched hub already owns the field",
+  "claim_testable_soon": "Claim has a testable deadline",
+  "hosted_not_easier": "Hosted product is not much easier than the free one",
+  "padding_launches": "Would hold back features or pad launch weeks",
+  "stop_after_months": "Will stop after a few months"
+ },
+ "tactics": [
+  {
+   "id": "replit-bottom-up",
+   "company": "Replit",
+   "tactic": "Bottom-up to enterprise",
+   "engine": "bottom_up",
+   "number": "Users at 85% of Fortune 500; net retention 'up to 300%'; enterprise margins 80-90% (company)",
+   "precondition": "Product one person can buy and get value from in a day; enterprise layer worth paying for",
+   "dont_copy_if": "Product needs a technical person; no answers for a security team",
+   "who_else": "Lovable, ElevenLabs, Cursor, Vercel, OpenRouter, Hugging Face, Supabase",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "value_in_one_day",
+    "enterprise_layer_ready",
+    "security_credible"
+   ],
+   "blockers": [
+    "needs_technical_person"
+   ],
+   "note": ""
+  },
+  {
+   "id": "replit-launch",
+   "company": "Replit",
+   "tactic": "Viral launch moment",
+   "engine": "launch",
+   "number": "~$1M annualised day one, $2M day two (company, second-hand)",
+   "precondition": "Result obvious in seconds to non-experts; a reason it could not exist before",
+   "dont_copy_if": "Needs long explanation or shows value weeks later",
+   "who_else": "Lovable, ElevenLabs",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "demo_obvious_in_seconds"
+   ],
+   "blockers": [
+    "long_explanation_needed"
+   ],
+   "note": ""
+  },
+  {
+   "id": "replit-pricing",
+   "company": "Replit",
+   "tactic": "Freemium + usage-based pricing",
+   "engine": "pricing",
+   "number": "Core plan ~$20/mo; gross margin positive 'for over a year' vs outside estimate 36% to -14% in 2025",
+   "precondition": "Low entry price; usage pricing covers model bills",
+   "dont_copy_if": "Customers cannot see request cost; heavy users sink margins",
+   "who_else": "Lovable, ElevenLabs, Cursor, Vercel, Clay, OpenRouter, Hugging Face, Lenny, Gamma, Supabase",
+   "evidence": "C/E",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "value_in_one_day",
+    "usage_scales_with_success",
+    "free_tier_fundable"
+   ],
+   "blockers": [
+    "no_cost_visibility",
+    "heavy_users_sink_margin"
+   ],
+   "note": ""
+  },
+  {
+   "id": "replit-founder",
+   "company": "Replit",
+   "tactic": "Founder-led social",
+   "engine": "founder_content",
+   "number": "Not disclosed",
+   "precondition": "Founder with a point of view beyond the product",
+   "dont_copy_if": "Founder only announces; public fights make the company the story",
+   "who_else": "12 companies in series",
+   "evidence": "-",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "founder_public_voice"
+   ],
+   "blockers": [
+    "founder_only_announces"
+   ],
+   "note": ""
+  },
+  {
+   "id": "replit-marketplace",
+   "company": "Replit",
+   "tactic": "Cloud marketplaces and partners",
+   "engine": "channel",
+   "number": "Not disclosed",
+   "precondition": "Enterprise users already there; listing eases buying, demand comes elsewhere",
+   "dont_copy_if": "Nobody inside target companies asking yet",
+   "who_else": "Lovable and Clay via agencies",
+   "evidence": "-",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "existing_users_inside_target_accounts",
+    "enterprise_cloud_spend_commitments"
+   ],
+   "blockers": [
+    "no_one_asking_yet"
+   ],
+   "note": ""
+  },
+  {
+   "id": "replit-sales-later",
+   "company": "Replit",
+   "tactic": "Add sales after bottom-up: advocates, small books, self-serve ceiling",
+   "engine": "sales_motion",
+   "number": "Four reps overwhelmed; plan ~40 to 200+ GTM staff; self-serve contracts to ~$200K",
+   "precondition": "Inbound enterprise demand outrunning sales capacity",
+   "dont_copy_if": "No product-led base yet",
+   "who_else": "Supabase (sales looks like support)",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/replit-gtm-playbook",
+   "requires": [
+    "existing_users_inside_target_accounts",
+    "enterprise_layer_ready"
+   ],
+   "blockers": [
+    "no_one_asking_yet"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-api-default",
+   "company": "Supabase",
+   "tactic": "API / embedded default layer",
+   "engine": "agent_distribution",
+   "number": "API handles ~90% of one customer's interactions; platform customers +370% in six months (company)",
+   "precondition": "Complete product a partner would otherwise build; API that sets it up with nobody clicking",
+   "dont_copy_if": "Product needs a person to configure it per customer",
+   "who_else": "ElevenLabs",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "agent_operable",
+    "open_standard_or_oss"
+   ],
+   "blockers": [
+    "needs_human_configuration"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-agents",
+   "company": "Supabase",
+   "tactic": "Build for AI agents (CLI, MCP, Agent Skills, public docs)",
+   "engine": "agent_distribution",
+   "number": "70% of new databases created by agents; agent skills lifted one agent's success 46% to 71% (small test)",
+   "precondition": "Product an agent can operate end to end on a standard models know",
+   "dont_copy_if": "A person must be in the loop to buy or set up",
+   "who_else": "Lenny Rachitsky (AI-ready archive)",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "agent_operable",
+    "open_standard_or_oss"
+   ],
+   "blockers": [
+    "needs_human_configuration"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-oss",
+   "company": "Supabase",
+   "tactic": "Open-source substrate",
+   "engine": "open_platform",
+   "number": "100,000+ GitHub stars; first reason on a major customer's selection list",
+   "precondition": "Open standard people trust; hosted version clearly easier",
+   "dont_copy_if": "Hosted is not much easier than the free version",
+   "who_else": "Vercel, Hugging Face",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "open_standard_or_oss",
+    "hosted_much_easier"
+   ],
+   "blockers": [
+    "hosted_not_easier"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-freemium",
+   "company": "Supabase",
+   "tactic": "Freemium + usage-based pricing",
+   "engine": "pricing",
+   "number": "250K+ paying of 13M+ developers (~2%, author's arithmetic)",
+   "precondition": "Usage grows with customer success; money to carry free projects",
+   "dont_copy_if": "Every free user costs real money and the gap is unfunded",
+   "who_else": "Nine companies in series",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "free_tier_fundable",
+    "usage_scales_with_success"
+   ],
+   "blockers": [
+    "heavy_users_sink_margin"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-launch-weeks",
+   "company": "Supabase",
+   "tactic": "Launch as a campaign (Launch Weeks)",
+   "engine": "launch",
+   "number": "~20% bumps each time (CEO)",
+   "precondition": "Enough real shipped work to fill a week; an audience watching",
+   "dont_copy_if": "Would hold back features or pad the week",
+   "who_else": "Lovable, ElevenLabs",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "shippable_cadence"
+   ],
+   "blockers": [
+    "padding_launches"
+   ],
+   "note": ""
+  },
+  {
+   "id": "supabase-sales-as-support",
+   "company": "Supabase",
+   "tactic": "Bottom-up to enterprise: sales that looks like support",
+   "engine": "sales_motion",
+   "number": "Customers talking to success grow usage 125% QoQ vs 25% without (CEO)",
+   "precondition": "Large self-signed base on usage pricing",
+   "dont_copy_if": "Customers not already using the product",
+   "who_else": "Six companies in series",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/supabase-gtm-playbook",
+   "requires": [
+    "existing_users_inside_target_accounts",
+    "usage_scales_with_success"
+   ],
+   "blockers": [
+    "no_one_asking_yet"
+   ],
+   "note": ""
+  },
+  {
+   "id": "saastr-education",
+   "company": "SaaStr",
+   "tactic": "Education-led growth (publish your own operation)",
+   "engine": "content",
+   "number": "'The Agents' series drove ~25% of new subscribers' watch time in 90 days; channel 138K to 200K subscribers in six months (company)",
+   "precondition": "An operation worth watching; willingness to publish numbers, costs and failures",
+   "dont_copy_if": "Cannot show real results",
+   "who_else": "Clay (Clay University)",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "founder_credibility_in_domain",
+    "multi_year_content_capacity"
+   ],
+   "blockers": [
+    "cannot_show_real_results"
+   ],
+   "note": ""
+  },
+  {
+   "id": "saastr-agent-sales",
+   "company": "SaaStr",
+   "tactic": "AI agent sales team",
+   "engine": "sales_motion",
+   "number": "$4.8M agent-sourced pipeline, $2.4M closed-won by Feb 2026; 442K chats, 614 meetings; Q1 revenue 140% with 1.25 sales humans (company)",
+   "precondition": "Playbook that works with humans, real lead volume, ~30 days training per agent, 15-20 h/week per manager, $500K+ infrastructure",
+   "dont_copy_if": "Never had a rep worth copying; closes ~40 large deals a year",
+   "who_else": "None in series",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "proven_sales_playbook",
+    "enough_lead_volume",
+    "invest_in_agent_ops"
+   ],
+   "blockers": [
+    "never_had_good_rep",
+    "close_few_large_deals"
+   ],
+   "note": "Human still negotiates; agents hallucinate and need daily review"
+  },
+  {
+   "id": "saastr-reference-customer",
+   "company": "SaaStr",
+   "tactic": "Become your buyers' reference customer",
+   "engine": "content",
+   "number": "Qualified agent >$4M closed revenue for SaaStr; Artisan >$3M pipeline (company)",
+   "precondition": "Your buyers are vendors selling to your audience; your results carry weight",
+   "dont_copy_if": "Audience would read it as paid placement",
+   "who_else": "None in series",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "founder_credibility_in_domain",
+    "multi_year_content_capacity"
+   ],
+   "blockers": [
+    "would_read_as_paid_placement",
+    "cannot_show_real_results"
+   ],
+   "note": "Disclose commercial relationships clearly"
+  },
+  {
+   "id": "saastr-seo-aeo",
+   "company": "SaaStr",
+   "tactic": "SEO and AEO",
+   "engine": "content",
+   "number": "Search impressions 50K to 245K per day in 12 months; active users +96% YoY (company)",
+   "precondition": "Years of citable content and a free list",
+   "dont_copy_if": "Plan to fill the gap with AI-generated volume",
+   "who_else": "Vercel",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "multi_year_content_capacity",
+    "large_distinctive_archive"
+   ],
+   "blockers": [
+    "thin_archive"
+   ],
+   "note": ""
+  },
+  {
+   "id": "saastr-corpus",
+   "company": "SaaStr",
+   "tactic": "AI-programmable corpus (founder clone)",
+   "engine": "content",
+   "number": "500K+ advisory conversations (company)",
+   "precondition": "Large distinctive archive and a founder voice",
+   "dont_copy_if": "Thin or generic archive",
+   "who_else": "Lenny Rachitsky",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "large_distinctive_archive",
+    "founder_public_voice"
+   ],
+   "blockers": [
+    "thin_archive"
+   ],
+   "note": ""
+  },
+  {
+   "id": "saastr-founder-social",
+   "company": "SaaStr",
+   "tactic": "Founder-led social",
+   "engine": "founder_content",
+   "number": "2,250+ Quora answers and 1M social followers by Jan 2020",
+   "precondition": "Operating credibility and years of cadence",
+   "dont_copy_if": "Will stop after a few months",
+   "who_else": "11 companies in series",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/saastr-gtm-playbook",
+   "requires": [
+    "founder_public_voice",
+    "multi_year_content_capacity",
+    "founder_credibility_in_domain"
+   ],
+   "blockers": [
+    "stop_after_months"
+   ],
+   "note": ""
+  },
+  {
+   "id": "gamma-badge",
+   "company": "Gamma",
+   "tactic": "Turn every product output into an ad ('Made with' badge)",
+   "engine": "product_output",
+   "number": "1M+ branded pieces daily; over half of subscriber growth attributed to word of mouth",
+   "precondition": "Output people are proud or impressed enough to share publicly",
+   "dont_copy_if": "Output is not screenshot-worthy",
+   "who_else": "Lovable, Cursor",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/gamma-gtm-playbook",
+   "requires": [
+    "shareable_output"
+   ],
+   "blockers": [
+    "output_not_shareable"
+   ],
+   "note": ""
+  },
+  {
+   "id": "gamma-target-buyer",
+   "company": "Gamma",
+   "tactic": "Focus on the target buyer, not everyone",
+   "engine": "positioning",
+   "number": "~600K paying; profitable since 2023 vs a rival's sub-$4M ARR on a bigger user base",
+   "precondition": "Use case with urgency and budget",
+   "dont_copy_if": "Only honest positioning is mass consumer with no willingness to pay",
+   "who_else": "None named",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/gamma-gtm-playbook",
+   "requires": [
+    "professional_buyer_with_budget"
+   ],
+   "blockers": [
+    "mass_consumer_no_wtp"
+   ],
+   "note": ""
+  },
+  {
+   "id": "gamma-30s",
+   "company": "Gamma",
+   "tactic": "Make the first 30 seconds magical",
+   "engine": "product_output",
+   "number": "60K to 3M users in 3 months after AI relaunch",
+   "precondition": "A first-contact moment that feels like magic, fast and cheap",
+   "dont_copy_if": "Value only appears after setup or weeks",
+   "who_else": "Instinct",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/gamma-gtm-playbook",
+   "requires": [
+    "demo_obvious_in_seconds",
+    "value_in_one_day"
+   ],
+   "blockers": [
+    "long_explanation_needed"
+   ],
+   "note": ""
+  },
+  {
+   "id": "gamma-founder-creator",
+   "company": "Gamma",
+   "tactic": "Become the creator yourself",
+   "engine": "founder_content",
+   "number": "Majority of subscriber growth attributed to word of mouth seeded by founder content",
+   "precondition": "Quick-demo product and a founder willing to do reps on camera",
+   "dont_copy_if": "Founder not in the channel",
+   "who_else": "Series pattern",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/gamma-gtm-playbook",
+   "requires": [
+    "founder_public_voice",
+    "demo_obvious_in_seconds"
+   ],
+   "blockers": [
+    "founder_only_announces"
+   ],
+   "note": ""
+  },
+  {
+   "id": "gamma-micro-influencers",
+   "company": "Gamma",
+   "tactic": "Pay micro-influencers (10K-100K followers), performance-tested",
+   "engine": "creator_marketing",
+   "number": "~70% of creator spend to micro-influencers; 1,000+ activated",
+   "precondition": "Product demos well in 30 seconds; test discipline",
+   "dont_copy_if": "Product cannot be shown quickly",
+   "who_else": "None named",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/gamma-gtm-playbook",
+   "requires": [
+    "demo_obvious_in_seconds"
+   ],
+   "blockers": [
+    "long_explanation_needed"
+   ],
+   "note": ""
+  },
+  {
+   "id": "instinct-scarcity",
+   "company": "Instinct",
+   "tactic": "Engineered scarcity (invite-only, vouched access)",
+   "engine": "launch",
+   "number": "100K+ users, no paid acquisition, no public launch (company/press)",
+   "precondition": "Real visible demand behind the gate and discipline to keep it",
+   "dont_copy_if": "Need scale now or product not good enough",
+   "who_else": "Superhuman, Robinhood",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/instinct-gtm-playbook",
+   "requires": [
+    "real_demand_behind_gate",
+    "product_survives_scrutiny"
+   ],
+   "blockers": [
+    "must_scale_fast",
+    "product_not_good_enough"
+   ],
+   "note": "Valuation moved without disclosed revenue; users unverified"
+  },
+  {
+   "id": "instinct-seed-authorities",
+   "company": "Instinct",
+   "tactic": "Seed the authorities (early access to high-reach people)",
+   "engine": "launch",
+   "number": "Founder's launch thread ~1M views in a day (late Aug 2026)",
+   "precondition": "Product polished enough for influential users; access to that tier",
+   "dont_copy_if": "Cannot reach that crowd or product not impressive",
+   "who_else": "None",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/instinct-gtm-playbook",
+   "requires": [
+    "product_survives_scrutiny",
+    "reach_to_influencers"
+   ],
+   "blockers": [
+    "product_not_good_enough"
+   ],
+   "note": "Disclose investor/stake relationships when endorsing"
+  },
+  {
+   "id": "instinct-orchestrate",
+   "company": "Instinct",
+   "tactic": "Orchestrate the launch message (one slogan, one format)",
+   "engine": "launch",
+   "number": "Slogan repeated across major outlets; identical testimonial format",
+   "precondition": "Simple repeatable frame and concrete outcomes",
+   "dont_copy_if": "Evidence will not survive scrutiny",
+   "who_else": "None",
+   "evidence": "P (inferred)",
+   "source_article": "originnotes.substack.com/p/instinct-gtm-playbook",
+   "requires": [
+    "product_survives_scrutiny"
+   ],
+   "blockers": [
+    "product_not_good_enough"
+   ],
+   "note": "Author found no evidence of coordination; ethics: avoid undisclosed coordinated endorsements"
+  },
+  {
+   "id": "lenny-newsletter-tentpoles",
+   "company": "Lenny Rachitsky",
+   "tactic": "Tentpole content + network amplifiers (recommendations)",
+   "engine": "content",
+   "number": "~13K free subscribers at paid launch; 1.2M+ free subscribers now",
+   "precondition": "Credible story, a few deep pieces, a platform that amplifies reputation",
+   "dont_copy_if": "None named",
+   "who_else": "SaaStr, Lenny pattern",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "founder_credibility_in_domain",
+    "multi_year_content_capacity"
+   ],
+   "blockers": [
+    "stop_after_months"
+   ],
+   "note": ""
+  },
+  {
+   "id": "lenny-one-make-everywhere",
+   "company": "Lenny Rachitsky",
+   "tactic": "Make one thing, publish it everywhere",
+   "engine": "content",
+   "number": "Two podcast episodes weekly; 100K-200K downloads each",
+   "precondition": "An audience on multiple channels",
+   "dont_copy_if": "None named",
+   "who_else": "None",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "multi_year_content_capacity"
+   ],
+   "blockers": [],
+   "note": ""
+  },
+  {
+   "id": "lenny-free-sells-paid",
+   "company": "Lenny Rachitsky",
+   "tactic": "Let free work sell paid work (paid post to free thread)",
+   "engine": "content",
+   "number": "Outside estimate ~4.8% paid in 2023",
+   "precondition": "Genuinely useful free tier",
+   "dont_copy_if": "None named",
+   "who_else": "None",
+   "evidence": "E",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "large_distinctive_archive"
+   ],
+   "blockers": [
+    "thin_archive"
+   ],
+   "note": ""
+  },
+  {
+   "id": "lenny-guests-three-assets",
+   "company": "Lenny Rachitsky",
+   "tactic": "Treat every collaborator as content, distributor and relationship",
+   "engine": "content",
+   "number": "Not disclosed",
+   "precondition": "A show with guest pull",
+   "dont_copy_if": "None named",
+   "who_else": "None",
+   "evidence": "-",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "multi_year_content_capacity"
+   ],
+   "blockers": [],
+   "note": ""
+  },
+  {
+   "id": "lenny-stack-on-audience",
+   "company": "Lenny Rachitsky",
+   "tactic": "Stack products on an audience you already earned (community, courses, jobs, bundle)",
+   "engine": "audience_monetization",
+   "number": "Outside estimate mid-seven-figures a year operating revenue; bundle of 20+ tools (Product Pass)",
+   "precondition": "Earned audience; portfolio or network partners to supply bundle value",
+   "dont_copy_if": "No audience yet",
+   "who_else": "None",
+   "evidence": "E/P",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "multi_year_content_capacity",
+    "large_distinctive_archive"
+   ],
+   "blockers": [
+    "thin_archive"
+   ],
+   "note": ""
+  },
+  {
+   "id": "lenny-programmable-archive",
+   "company": "Lenny Rachitsky",
+   "tactic": "Make content programmable (AI-ready files, MCP server)",
+   "engine": "content",
+   "number": "369 posts and 317 transcripts; community built 50+ tools",
+   "precondition": "Large distinctive archive",
+   "dont_copy_if": "Thin archive",
+   "who_else": "SaaStr, Supabase",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "large_distinctive_archive"
+   ],
+   "blockers": [
+    "thin_archive"
+   ],
+   "note": ""
+  },
+  {
+   "id": "lenny-cadence",
+   "company": "Lenny Rachitsky",
+   "tactic": "Hold the cadence for years",
+   "engine": "content",
+   "number": "Weekly newsletter for six years, two episodes weekly for four",
+   "precondition": "Savings/runway and discipline",
+   "dont_copy_if": "Will stop after months",
+   "who_else": "None",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/lenny-rachitsky-content-engine",
+   "requires": [
+    "multi_year_content_capacity"
+   ],
+   "blockers": [
+    "stop_after_months"
+   ],
+   "note": ""
+  },
+  {
+   "id": "rogo-sell-trust",
+   "company": "Rogo",
+   "tactic": "Sell trust (click-through audit trail on every figure)",
+   "engine": "trust",
+   "number": "35K+ professionals at 300+ institutions; >$50M ARR (company)",
+   "precondition": "Work with a high cost of error",
+   "dont_copy_if": "Buyers tolerate mistakes",
+   "who_else": "Harvey",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/rogo-gtm-playbook",
+   "requires": [
+    "high_cost_of_error_buyers",
+    "security_credible"
+   ],
+   "blockers": [
+    "buyers_tolerate_errors"
+   ],
+   "note": ""
+  },
+  {
+   "id": "rogo-hardest-name",
+   "company": "Rogo",
+   "tactic": "Win the hardest name first",
+   "engine": "trust",
+   "number": "Anchored by named elite banks (company)",
+   "precondition": "Profession organised as a prestige hierarchy",
+   "dont_copy_if": "Flat market",
+   "who_else": "Harvey",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/rogo-gtm-playbook",
+   "requires": [
+    "prestige_hierarchy_market",
+    "peer_proof_buying"
+   ],
+   "blockers": [
+    "flat_market"
+   ],
+   "note": ""
+  },
+  {
+   "id": "rogo-forward-deployed",
+   "company": "Rogo",
+   "tactic": "Put insiders in customers' domain (forward-deployed bankers)",
+   "engine": "sales_motion",
+   "number": "Seven-figure ARR in under five months with one rep; ~half the company ex-bankers",
+   "precondition": "Idiosyncratic work and founders/staff from the buyer's world",
+   "dont_copy_if": "Product sells itself in self-serve trial",
+   "who_else": "Palantir model; Harvey; Clay",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/rogo-gtm-playbook",
+   "requires": [
+    "insiders_from_buyer_world"
+   ],
+   "blockers": [
+    "self_serve_trial_sells"
+   ],
+   "note": ""
+  },
+  {
+   "id": "rogo-buyers-vouch",
+   "company": "Rogo",
+   "tactic": "Let your buyers vouch for you (investors and hires from the customer base)",
+   "engine": "trust",
+   "number": "$300M+ investor base overlapping with customers",
+   "precondition": "Market buying on peer proof",
+   "dont_copy_if": "Buyers do not care who is behind you",
+   "who_else": "Harvey",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/rogo-gtm-playbook",
+   "requires": [
+    "peer_proof_buying",
+    "prestige_hierarchy_market"
+   ],
+   "blockers": [
+    "flat_market"
+   ],
+   "note": ""
+  },
+  {
+   "id": "rogo-compliance-gate",
+   "company": "Rogo",
+   "tactic": "Clear the compliance gate (single-tenant, SOC 2, ISO)",
+   "engine": "trust",
+   "number": "Passes InfoSec review that most AI startups fail",
+   "precondition": "Procurement gated by security and regulatory review",
+   "dont_copy_if": "Buyers can adopt without compliance check",
+   "who_else": "None",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/rogo-gtm-playbook",
+   "requires": [
+    "security_credible"
+   ],
+   "blockers": [],
+   "note": ""
+  },
+  {
+   "id": "hf-on-ramp",
+   "company": "Hugging Face",
+   "tactic": "Give away the on-ramp (Transformers library)",
+   "engine": "open_platform",
+   "number": "Default tool for researchers; lands users on the Hub",
+   "precondition": "Real friction a free tool removes; tool becomes the default",
+   "dont_copy_if": "Tool will not become the standard",
+   "who_else": "Vercel (Next.js)",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "open_standard_or_oss",
+    "patient_capital"
+   ],
+   "blockers": [],
+   "note": ""
+  },
+  {
+   "id": "hf-host-everyone",
+   "company": "Hugging Face",
+   "tactic": "Host everyone's work (neutral hub, network effects)",
+   "engine": "open_platform",
+   "number": "3M+ models, 18M+ developers, 200K companies (Nvidia figures at announcement)",
+   "precondition": "Early to a field producing a flood of shareable work; neutral host",
+   "dont_copy_if": "Field output not worth sharing or cannot stay neutral",
+   "who_else": "None",
+   "evidence": "P",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "neutral_position",
+    "emerging_field_no_default"
+   ],
+   "blockers": [
+    "entrenched_hub_exists"
+   ],
+   "note": ""
+  },
+  {
+   "id": "hf-delay-money",
+   "company": "Hugging Face",
+   "tactic": "Delay the money",
+   "engine": "open_platform",
+   "number": "Monetisation began 2021; ~$70M ARR by 2023; >$100M by mid-2026 (CEO)",
+   "precondition": "Patient capital and cheap hosting",
+   "dont_copy_if": "Cannot fund the wait",
+   "who_else": "None",
+   "evidence": "C/E",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "patient_capital",
+    "free_tier_fundable"
+   ],
+   "blockers": [
+    "cannot_fund_wait"
+   ],
+   "note": ""
+  },
+  {
+   "id": "hf-enterprise",
+   "company": "Hugging Face",
+   "tactic": "Enterprise private hosting (bottom-up first)",
+   "engine": "bottom_up",
+   "number": "Private hubs, on-prem, audit logs, compliance",
+   "precondition": "Broad grassroots adoption inside companies first plus real security",
+   "dont_copy_if": "No bottom-up usage yet",
+   "who_else": "Vercel, Replit",
+   "evidence": "C/P",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "existing_users_inside_target_accounts",
+    "security_credible"
+   ],
+   "blockers": [
+    "no_one_asking_yet"
+   ],
+   "note": ""
+  },
+  {
+   "id": "hf-scoreboard",
+   "company": "Hugging Face",
+   "tactic": "Own the scoreboard (downloads, trending, leaderboard)",
+   "engine": "open_platform",
+   "number": "Download counts and leaderboard cited as adoption signal",
+   "precondition": "Real neutral signal with enough traffic",
+   "dont_copy_if": "Signal is gameable or thin",
+   "who_else": "OpenRouter (usage scoreboard)",
+   "evidence": "P",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "real_neutral_signal",
+    "neutral_position"
+   ],
+   "blockers": [
+    "gameable_signal"
+   ],
+   "note": ""
+  },
+  {
+   "id": "hf-replay",
+   "company": "Hugging Face",
+   "tactic": "Replay the playbook in a new field (robotics)",
+   "engine": "open_platform",
+   "number": "Robotics datasets ~1,100 to 27,000 in a year",
+   "precondition": "Emerging field without a default home; credible right to enter",
+   "dont_copy_if": "Entrenched hub already exists",
+   "who_else": "None",
+   "evidence": "C",
+   "source_article": "originnotes.substack.com/p/hugging-faces-gtm-playbook",
+   "requires": [
+    "emerging_field_no_default",
+    "neutral_position"
+   ],
+   "blockers": [
+    "entrenched_hub_exists"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fear-narrative",
+   "company": "Frontier AI labs (analysis)",
+   "tactic": "Fear/doom narrative to reprice valuation and raise barriers",
+   "engine": "narrative",
+   "number": "Not measurable by design",
+   "precondition": "Unmeasurable threat; you are the authority; the danger points at your product; audience holds capital or rules",
+   "dont_copy_if": "Missing any of the four; attach doom to a date and it dies",
+   "who_else": "Edison v AC; IBM FUD; Y2K",
+   "evidence": "analysis",
+   "source_article": "originnotes.substack.com/p/fear-gtm-playbook",
+   "requires": [
+    "audience_holds_capital_or_rules",
+    "founder_credibility_in_domain"
+   ],
+   "blockers": [
+    "claim_testable_soon"
+   ],
+   "note": "The author says do not copy; included for recognition and critical reading only"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+# The four tactics (paraphrased from the Replit teardown)
+
+| Tactic | What it is | Number cited | Precondition | Don't copy if |
+|---|---|---|---|---|
+| Viral launch moment | launch something new and let the demo take over the conversation; people share clips of the agent building apps from one sentence | company says the agent made about $1M annualised on day one and $2M on day two; paying subscribers up about 45% a month after launch; over 2M apps built in six months (second-hand and company-reported) | a result obvious in seconds to a non-expert, and a reason it could not exist before (here a model good enough to build the app) | the product needs a long explanation or shows value weeks later; you cannot schedule a launch moment |
+| Freemium plus usage-based pricing | cheap to start (about $20 a month core plan), then charge more as customers get more value, with agent work billed by effort | gross margin positive "for over a year" per the CEO, while an outside estimate had it between 36% and minus 14% during 2025 | entry price low enough to put on a work card; usage pricing that covers model bills | customers cannot see what a request will cost before making it; heavy users on a cheap plan would sink margins |
+| Founder-led social | the founder is the loudest channel: launches and milestones, public fights, long-form podcasts | not disclosed | a point of view beyond the product (the "billion software creators" idea), willingness to argue in public | the founder only posts announcements; fights make the company the story |
+| Cloud marketplaces and partners | sell through platforms that hold buyers' budgets (named partners include major clouds and data platforms); marketplace purchases can count against annual cloud spend commitments | not disclosed | enterprise users already there; listing makes buying easier but demand must come elsewhere | nobody inside target companies is asking for you yet |
+
+## Notes by tactic
+**Launch moment**: others in the series that fit: an open-source demo that went viral, and voice AI whose output people could not tell from human. In all, the output was the demo. Prepare infrastructure for a spike, a clear one-sentence demo, and a follow-up plan.
+**Pricing**: after moving to effort-based charges some users found bills hard to predict (the CEO acknowledged a request might cost $10 or $20); later a free mode for everyday agent tasks on the core plan was introduced and company pricing was moving from per-seat to a platform fee plus prepaid credits (per its CRO). Lessons: show cost before action, cap runaway usage, align incentives so heavy use is profitable, revisit packaging as model costs fall.
+**Founder-led social**: popular across the teardown series (twelve of its companies). Use a repeatable cadence, share numbers and decisions candidly, argue a thesis, and keep the company, not only the founder, credible.
+**Marketplaces**: new in the series; the other channel pattern is agencies that deliver the product to clients. Pre-work: procurement-ready packaging, private offers, co-sell relationships, security documentation.
+
+## Which tactic when (rule of thumb, not from the article)
+Early with a striking demo: launch moment + founder content. Product with variable cost: pricing design first. Enterprise demand already appearing: marketplace and partner listings. Always: confirm the tactic's precondition with data before investing.
