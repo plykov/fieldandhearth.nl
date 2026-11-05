@@ -1,6 +1,6 @@
-# Skill catalog (69 active skills; social-media-bible retired)
+# Skill catalog (71 active skills; social-media-bible retired)
 
-Audit result: all 69 pass quick_validate; every folder name matches its `name`; every description is under the 1,024-character limit (longest: strategy planner 1,022, content-engine-audience-business 1,004, email-web-conversion 1,013); every skill has guardrails; none has been tested against live prompts yet. The 48 in sections 1-9 were audited together earlier; the 21 added later (Strategic Selling, Addicted to the Process, Origin Notes GTM, LinkedIn viral posts) were each validated when built.
+Audit result: all 71 pass quick_validate; every folder name matches its `name`; every description is under the 1,024-character limit (longest: strategy planner 1,022, content-engine-audience-business 1,004, email-web-conversion 1,013); every skill has guardrails; none has been tested against live prompts yet. The 48 in sections 1-9 were audited together earlier; the 23 added later (Strategic Selling, Addicted to the Process, Origin Notes GTM, LinkedIn) were each validated when built.
 Legend: (S) = built earlier in the session from a single book, (G) = generated from a compendium or multi-agent run. Sizes: SKILL.md 31-92 lines, 5-33 KB of references each.
 
 ## 1. Sales, prospecting and deals
@@ -35,6 +35,8 @@ Legend: (S) = built earlier in the session from a single book, (G) = generated f
 | linkedin-hook-and-rehook-writer | write/fix the first 3 lines of a LinkedIn post, hook scoring | Viral LinkedIn posts analysis (54,187 posts) |
 | linkedin-post-templates | draft LinkedIn posts: story, how-to, listicle, opinion, lead-magnet offer | Viral LinkedIn posts analysis |
 | linkedin-posting-strategy-and-metrics | cadence, timing, first-hour plan, metrics loop, evidence caveats | Viral LinkedIn posts analysis |
+| linkedin-client-attraction-content-system | LinkedIn for clients: archetypes, CTA ladder, comment-to-call path, 90-day plan | LinkedIn top-decile (850 posts) analysis |
+| linkedin-ai-post-agent-builder | build an AI post-drafting agent: schema, brief, draft scorer script | LinkedIn top-decile (850 posts) analysis |
 | content-engine-audience-business | newsletter/podcast/community engine, stack products on an audience | Origin Notes, Lenny and SaaStr teardowns |
 | customer-care-culture-strategy | caring-at-scale culture and buy-in | Vaynerchuk, Thank You Economy |
 | social-media-engagement-tactics | listening, replies, intent, campaigns | Vaynerchuk |
@@ -135,9 +137,11 @@ Each pair below now has a one-line "for X use Y" pointer at the end of its descr
 | content-engine-audience-business vs linkedin-* skills | both about content for an audience | content-engine = building an audience business; linkedin-* = writing and measuring individual LinkedIn posts |
 | linkedin-post-templates vs lead-magnet-playbook and likable-copywriting | post writing vs asset building vs tone | templates = structure of a post; lead-magnet = building the asset; likable-copywriting = warm tone |
 | linkedin-* vs your linkedin-profile-audit | posts vs profile | profile-audit = the profile page; linkedin-* = posts |
+| linkedin-post-templates vs linkedin-client-attraction-content-system vs linkedin-ai-post-agent-builder | single post vs lead system vs AI tooling | templates = write one post; client-attraction = strategy, CTAs and conversion; agent-builder = automate drafting and scoring |
+| linkedin-client-attraction-content-system vs sell-by-chat | both cover DMs | client-attraction = what the post asks and the first reply; sell-by-chat = the DM selling conversation after |
 
 ## Practical points
-- Context cost: each description is roughly 800-1,000 characters, so all 69 add about 60 KB of metadata. Install by category set (for example Sales + Marketing, GTM, or Productivity + Mindset) rather than all at once.
+- Context cost: each description is roughly 800-1,000 characters, so all 71 add about 62 KB of metadata. Install by category set (for example Sales + Marketing, GTM, or Productivity + Mindset) rather than all at once.
 - Quality uniformity: Safko & Brake skills have shorter SKILL.md bodies (31-37 lines) than the Productivity Game ones (45-65 lines); both are valid, but the shorter ones lean more on reference files.
 - Copyright: everything is paraphrased; the earlier single-book skills (Seven Figure Creators, The Like Switch) and book-derived skills are for personal use; do not redistribute.
 - Evidence quality: the Origin Notes figures are company-reported and dated; the LinkedIn skills rest on a report with an unverifiable method (see their `references/evidence-notes.md`). Treat numbers as illustrations.

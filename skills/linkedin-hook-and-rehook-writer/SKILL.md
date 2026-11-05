@@ -1,6 +1,6 @@
 ---
 name: linkedin-hook-and-rehook-writer
-description: Writes and fixes the first three lines of a LinkedIn post (the hook and rehook that decide whether anyone taps see more), using patterns from a 2025 analysis of viral LinkedIn posts. Covers the three hook families (curiosity, problem-solution, personal story), rehook moves that keep the click going, the roughly 200-character preview cutoff and why images shorten it, line-break tactics, hook length and clarity rules, and a scoring test for a draft opener. Use whenever the user wants a stronger LinkedIn opener, asks for hook options, says their posts get impressions but few reads, wants to rewrite a weak first line, or is drafting any LinkedIn post and the opening is not yet sharp. For a full post structure use linkedin-post-templates. For timing and metrics use linkedin-posting-strategy-and-metrics.
+description: Writes and fixes the first three lines of a LinkedIn post (the hook and rehook that decide whether anyone taps see more), using patterns from a 2025 analysis of viral LinkedIn posts. Covers the three hook families (curiosity, problem-solution, personal story), rehook moves that keep the click going, the roughly 200-character preview cutoff and why images shorten it, line-break tactics, hook length and clarity rules, and a scoring test for a draft opener, and hook-ingredient layering (number, quote, question, first person). Use whenever the user wants a stronger LinkedIn opener, asks for hook options, says their posts get impressions but few reads, wants to rewrite a weak first line, or is drafting any LinkedIn post and the opening is not yet sharp. For a full post structure use linkedin-post-templates. For timing and metrics use linkedin-posting-strategy-and-metrics.
 ---
 
 # LinkedIn hook and rehook writer
@@ -36,5 +36,7 @@ The feed shows only the opening of a post. If those lines do not earn the "see m
 - Avoid corporate filler openers ("Excited to announce", "In today's fast-paced world").
 
 The patterns come from one secondary analysis (see `references/evidence-notes.md`): treat them as strong heuristics to test on your own audience, not laws.
+
+Layer tactics: strong hooks usually combine two or three ingredients (a specific number, an open loop, a human or dramatic element). `references/hook-mechanics.md` has the shares from a second analysis of 850 top posts and a 0-3 mechanics score. Target about 130 characters, with 200 as the ceiling. For a deterministic check, `linkedin-ai-post-agent-builder` has a scoring script.
 
 Read `references/hook-patterns.md` for formulas, examples and annotated hook plus rehook pairs.

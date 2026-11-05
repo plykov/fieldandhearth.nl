@@ -38,4 +38,6 @@ Posting well is half the job. The other half is choosing the audience, the sched
 - Do not exploit commenters: no spam DMs, no pitching people who only asked for a free resource.
 - Treat the source report's statistics as illustrative; read `references/evidence-notes.md` before citing any number to a client.
 
+For turning attention into clients (CTA ladder, comment-to-call path, 90-day plan) use `linkedin-client-attraction-content-system`; for an AI drafting assistant and draft scorer use `linkedin-ai-post-agent-builder`.
+
 Read `references/metrics-loop.md` for the tracking sheet and weekly routine, and `references/evidence-notes.md` for how reliable each claim is.

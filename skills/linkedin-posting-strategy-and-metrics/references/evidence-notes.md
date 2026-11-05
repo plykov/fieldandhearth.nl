@@ -16,3 +16,11 @@ Hooks and previews matter because the feed truncates posts. Conversational perso
 
 ## How to use the numbers
 Quote them only as "one analysis reported" and never as guaranteed effects. Prefer the user's own analytics after about 10 to 20 posts.
+
+## Second report: 850 top-decile posts (client-attraction analysis)
+Deeper per-post schema (40+ variables, language-model enrichment) but a narrower base: the top 10% of posts from a curated group of expert creators, many of whom sell courses, books or services via LinkedIn.
+- **No baseline.** Without ordinary posts for comparison, shares such as "62% of hooks contain a number" show what these creators do, not what drives results.
+- **Selection and survivorship.** Creators were chosen because they succeed; we cannot see the many who tried the same moves.
+- **Commercial incentive.** The author promotes related products, and the creators profit from comment-to-get funnels. Treat ethics advice (transparency, delivery) as additions, not as findings.
+- **Some quoted examples are paraphrased or unverifiable.** Do not reuse their numbers.
+- **What is stronger:** the qualitative structure (value-first posts, hook-to-payoff, light CTAs, topic consistency) agrees with the first report and with common practice.

@@ -26,6 +26,8 @@ Turn an idea, story or expertise into a finished LinkedIn post. The templates ar
 | A genuinely useful free asset and capacity to deliver it | Lead magnet offer (template 5) |
 | A hot topic where you can add your own take | Trend commentary: use template 4 with a timely hook |
 | A question your network can answer | Engagement prompt: give your own answer first |
+| A compact principle you can back with one example | Mindset insight (see body-structures.md) |
+| An experiment or client result with figures | Challenge-and-results case study (see body-structures.md) |
 Blend types freely, for example a story that ends with a short list of lessons.
 
 ## Style rules (why each matters)
@@ -53,4 +55,4 @@ Blend types freely, for example a story that ends with a short list of lessons.
 - Lead magnet posts: deliver what you promise to every commenter, and do not invent urgency or scarcity. See `references/templates.md`, template 5, and use `lead-magnet-playbook` for building the asset.
 - Do not coach engagement pods or asking friends to pump a post; see `linkedin-posting-strategy-and-metrics`.
 
-Read `references/templates.md` for the five skeletons with examples. Read `references/evidence-notes.md` before quoting any statistic from the source analysis.
+Read `references/templates.md` for the five skeletons with examples, and `references/body-structures.md` for body shapes, the hook-to-payoff contract and a sixth format (inspirational mindset insight). Read `references/evidence-notes.md` before quoting any statistic from the source analysis.
